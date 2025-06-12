@@ -38,7 +38,7 @@ const NavBar = () => {
         <div className="hidden lg:flex space-x-6">
           <Link to="/" className="text-white hover:text-gray-200">Home</Link>
           <Link to="/about" className="text-white hover:text-gray-200">About</Link>
-          <Link to="/services" className="text-white hover:text-gray-200">Services</Link>
+          <Link to="/service" className="text-white hover:text-gray-200">Services</Link>
           <Link to="/contact" className="text-white hover:text-gray-200">Contact</Link>
         </div>
       </div>
@@ -49,7 +49,7 @@ const NavBar = () => {
           <div className="space-y-2 mt-2">
             <Link to="/" onClick={closeMenu} className="block text-white py-2 border-b border-white/20">Home</Link>
             <Link to="/about" onClick={closeMenu} className="block text-white py-2 border-b border-white/20">About</Link>
-            <Link to="/services" onClick={closeMenu} className="block text-white py-2 border-b border-white/20">Services</Link>
+            <Link to="/service" onClick={closeMenu} className="block text-white py-2 border-b border-white/20">Services</Link>
             <Link to="/contact" onClick={closeMenu} className="block text-white py-2">Contact</Link>
           </div>
         </div>
